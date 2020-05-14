@@ -1,0 +1,70 @@
+In partea urmatoare vom prezenta parti relevante din cod.
+
+Precizam ca jocul are functionalitate completa fara bugguri
+si am adaugat structuri try-catch pentru evitarea exceptiilor
+in care imputul nu este valid.
+
+
+-----------naming conversion---------------
+-----------aratam clasa Card.h
+Am respectat conventiile de denumire: variabilele sunt scrise
+in camel case incepand cu litara mica, iar functiile si clasele
+ sunt scrise tot in camel case dar incepand cu litera mare.
+De asemenea, membrii claselor sunt declarati cu m_ la
+inceput.
+
+
+-------------- single responsabiliti -------------
+---------------aratam Phase.h
+Fiecare clasa si metoda are un singur scop. De exemplu
+in clasa Phase avem functii separate care verifica daca 
+un vector dat de carti indeplineste conditiile de set, run
+sau color.
+
+
+----------------Unit testing (17)--------------------
+------------PlayerTests
+Pentru acest joc am facut 17 teste, folosind Unit Testing
+care verifica buna functionalitate a metodelor. Mentionam ca
+pentru creearea testelor am folosit un DLL.
+De exemplu in PlayerTests am verificat constructorul,
+functiile GetCurrentPhase, DropCard, CountScore, si operatorul
+de afisare si egal.
+
+
+------------ Const ref ----------------
+-------------aratam Player.h
+De asemenea, am folosit const referinta. In acest exemplu 
+apare in antetul functiilor de operator = si operator de afisare.
+
+
+---------------Date & time--------
+--------------- Game.cpp linia 159
+Din biblioteca chrono am folosit sleep_for pentru a pune
+pe pauza consola timp de cateva secunde. In plus am apelat
+functia time din headearul time.h pentru a genera cartile
+in ordine diferita de fiecare data.
+
+
+
+---------------Algortimi moderni --------------------
+--- move+ find+ random + random_shuffle + auto+ for_each + uint16_t 
++size_t
+Ca si algoritmi moderni, precizam ca am utilizat functiile
+move si find. Pentru amestecarea pachetului de carti am 
+folosit functiile shuffle si random_shuffle. De asemenea
+mentionam ca printre elemenetele moderne utilizate se enumera
+si auto, for_each, size_t si uint_t
+
+
+------------------Containere------------------
+---- vector, stack, bitset   
+----in Game.cpp linia 41, 42 + Player.cpp linia 35
+In implementarea jocului am folosit urmatoarele containere.
+Din stl am utilizat vectori si o stiva pentru pachetul de
+carti decartate si de asemenea un bitset pentru retinerea 
+fazelor fiecarui jucator.
+
+
+
+

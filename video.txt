@@ -1,0 +1,78 @@
+Video de prezentare pentru jocul Phase 10
+
+Pentru a incepe jocul se introduce numarul jucatorilor care trebuie sa fie cuprins
+intre 2 si 6. Putem observa ca daca introducem o valoare invalida va aparea un
+mesaj de atentionare. Pentru acest demo vom introduce 2 jucatori.
+
+Pasul urmator este introducerea numelor jucatorilor. Primul jucator se numeste "Ben".
+Daca pentru al doilea jucator vom introduce acelasi nume vom obtine iar un mesaj de atentioare.
+In acest caz numele celui de al doilea jucator va fi "Ema".
+
+In continuare vom alege modul de joc. Avem de ales intre a juca varianta lunga, care cuprinde
+toate cele 10 faze, sau una dintre variantele scurte, doar fazele pare sau cele impare. 
+Vom alege prima varianta.
+
+!!!!!!!!!
+
+Din acest punct vom incepe jocul propriu zis.
+
+In partea de sus apar caracteristicile fiecarui jucator: faza curenta si cartile de pe masa
+de joc. In acest moment niciun jucator nu are carti etalate    [selecteaza cu mausul]
+
+In continuare apar punctele jucatorului curent si cartile din mana sa.   !!!!!
+Acesta primeste automat o carte din pachet deoarece nu sunt carti decartate inca si ii 
+sunt afisate iarasi cartile din mana.  [selecteaza]
+
+Jucatorului i se precizeaza faza pe care trebuie sa o completeze. Precizam ca un set este 
+format din carti care au acelasi numar, iar un run este o suita de carti consecutive.
+
+In cazul in care jucatorul alege sa etaleze cartile va trebui sa aleaga indexul fiecarei carti.
+Daca jucatorul introduce carti gresite, va fi precizat unde este greseala si va avea 
+posibilitatea sa aleaga din nou, daca doreste asta.  [intoducem prost]
+ !!!!!!!
+In cazul de fata, jucatorul Ben poate forma 2 seturi de 3 cu cartile: 1, 6, 8 si 2, 4, 7.
+Pe ecran vor aparea cartile ramase in mana si cele 2 seturi etalate, iar faza acestuia
+va fi incrementata.  [mause]
+
+!!!!!
+
+Daca jucatorul are carti etalate, va aparea optiunea de a lipi o carte din mana la orice set 
+deja etalat de la orice jucator. De exemplu nu putem anexa o carte la jucatorul Ema 
+deoarece nu are carti etalate.  [anexam la jucatorul ema - nu merge]
+In cazul in care cartea aleasa este valida, aceata este eliminata din mana jucatorului si
+este lipita la setul etalat.  !!!!!!! Pot fi anexate oricate carti in timpul unei ture.
+
+In continuare suntem intrebati ce carte vrem sa dam jos. Vom alege carte skip si vom fi 
+intrebati ce jucator vrem sa sarim. Astfel, jucatorul Ema este sarit. Ii vor fi
+afisate cele 10 carti din mana, dar nu va putea realiza nicio actiune.
+!!!!!!!
+Cand este iarasi randul jucatorului Ben observam ca faza curenta s-a schimbat si este intrebat de
+unde doreste sa traga o carte.
+In cazul in care alege carte decartata, si anume skip, va fi atentionat ca nu poate sa
+primeasca aceasta carte si va primii una automat din pachet. Daca ultima carte decartata 
+nu ar fi fost skip, aceasta ar fi putut sa o primeasca.
+!!!!!!
+---pauza---- pana cand lipim wild-ul
+!!!!!
+Cartea wild tine locul oricarei carti, astfel jucatorul Ema va putea lipi aceasta carte oriunde.
+
+-----pauza---- pana cand Ben mai are doar 2 carti (si una buna)
+!!!!!!
+In acest moment, jucatorul Ben mai are doar 2 carti, dintre care poate lipii o carte, si 
+anume a doua.
+Ramanand doar cu o carte, jucatorul curent o va da jos si astfel va castiga mana
+!!!!!!
+
+Fiind un joc lung, am adaugat optiunea de a oprii jocul dupa orice mana. Daca jucatorii aleg 
+sa nu mai continue jocul se va afisa pentru fiecare jucator faza la care a ramas si 
+numarul de puncte acumulate. Jucatorii vor fi intrebati daca doresc sa inceapa un joc nou,
+in care vor putea alege din nou participantii si tipul jocului. 
+In cazul in care acestia doresc sa continue, se reiau toti pasii.
+
+Un jucator este considerat castigator atunci cand a completat toate fazele din tipul de joc ales.
+Daca sunt mai multi jucatorii in aceasta situatie, departajarea se va face in functie de 
+cine are cel mai mic punctaj. 
+
+
+
+
